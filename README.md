@@ -1,8 +1,10 @@
 # Nequick-G
 This is a python implementation of the Nequick-G ionospheric correction model described in European Space Agency's Galileo Ionospheric Model. Ionospheric disturbance flags are not implemented
 
-Reference: Ionospheric correction Algorithm for galileo single frequency users (2016)
-https://www.gsc-europa.eu/system/files/galileo_documents/Galileo_Ionospheric_Model.pdf
+
+Reference: [Ionospheric correction Algorithm for galileo single frequency users (2016)](https://www.gsc-europa.eu/sites/default/files/sites/all/files/Galileo_Ionospheric_Model.pdf)
+
+[ESA Wiki](https://gssc.esa.int/navipedia/index.php/NeQuick_Ionospheric_Model)
 
 ## Installation
 This module depends on numpy for computation, and matplotlib and Basemap for plotting.
