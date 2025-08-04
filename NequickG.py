@@ -103,7 +103,7 @@ class NequickG:
             count += 1
 
         if count == 20:
-            print "vTEC integration did not converge"
+            print("vTEC integration did not converge")
 
         return (GN2 + (GN2 - GN1) / 15.0)
 
@@ -454,7 +454,7 @@ class NequickG_parameters:
         #
         # print foE - self.foE
         if (self.foE < 0):
-            print self.foE
+            print(self.foE)
         assert(self.foE >= 0)
         return self.foE, self.NmE
 
