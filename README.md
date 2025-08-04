@@ -15,6 +15,15 @@ sudo apt-get install python-matplotlib
 sudo apt-get install python-mpltoolkits.basemap
 ```
 
+MacOS
+```bash
+pip3 install numpy
+pip3 install matplotlib
+brew install geos
+pip3 install basemap
+```
+
+
 This module doesn't require installation to your python environment's site-packages.
 Simply write scripts in the same directory as this project and import the necessary classes
 ## Main classes
